@@ -1,0 +1,110 @@
+Para iniciar o programa
+
+mvn spring-boot:run
+
+O programa sobe um banco em memoria
+
+Para consultar o banco em memoria:
+
+http://localhost:9000/h2-console
+
+inserir o pedido:
+
+http://localhost:9000/teste/pedido/novo/
+
+ [
+    {
+        "numControle":"1",
+        "dtCadastro":"2019-07-02",
+        "nomeProduto": "teste 1",
+        "vrProduto" : "10",
+        "qtdProduto" : "10",
+        "codCliente" : "1"
+    },
+     {
+        "numControle":"2",
+        "dtCadastro":"2019-07-02",
+        "nomeProduto": "teste 1",
+        "vrProduto" : "10",
+        "qtdProduto" : "6",
+        "codCliente" : "1"
+    },
+     {
+        "numControle":"3",
+        "dtCadastro":"2019-07-02",
+        "nomeProduto": "teste 1",
+        "vrProduto" : "10.00",
+        "qtdProduto" : "9",
+        "codCliente" : "1"
+    },
+     {
+        "numControle":"4",
+        "dtCadastro":"2019-07-02",
+        "nomeProduto": "teste 1",
+        "vrProduto" : "12.22",
+        "qtdProduto" : "2",
+        "codCliente" : "1"
+    },
+     {
+        "numControle":"5",
+        "dtCadastro":"2019-07-02",
+        "nomeProduto": "teste 1",
+        "vrProduto" : "12.22",
+        "qtdProduto" : "2",
+        "codCliente" : "1"
+    },
+     {
+        "numControle":"6",
+        "dtCadastro":"2019-07-02",
+        "nomeProduto": "teste 1",
+        "vrProduto" : "12.22",
+        "qtdProduto" : "2",
+        "codCliente" : "1"
+    },
+     {
+        "numControle":"7",
+        "dtCadastro":"2019-07-02",
+        "nomeProduto": "teste 1",
+        "vrProduto" : "12.22",
+        "qtdProduto" : "2",
+        "codCliente" : "1"
+    },
+     {
+        "numControle":"8",
+        "dtCadastro":"2019-07-02",
+        "nomeProduto": "teste 1",
+        "vrProduto" : "12.22",
+        "qtdProduto" : "2",
+        "codCliente" : "1"
+    },
+     {
+        "numControle":"9",
+        "dtCadastro":"2019-07-02",
+        "nomeProduto": "teste 1",
+        "vrProduto" : "12.22",
+        "qtdProduto" : "2",
+        "codCliente" : "1"
+    },
+     {
+        "numControle":"10",
+        "dtCadastro":"",
+        "nomeProduto": "teste 1",
+        "vrProduto" : "12.22",
+        "qtdProduto" : "",
+        "codCliente" : "1"
+    }
+   
+    
+];
+
+Consultar pedido por data:
+
+http://localhost:9000/pedidos/data/2019-7-1
+
+Consultar todos os pedidos:
+
+http://localhost:9000/pedidos
+
+Consulta pedido pelo número:
+
+http://localhost:9000/pedido/1

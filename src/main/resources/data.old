@@ -1,0 +1,13 @@
+insert into cliente (id,endereco, nome ) values(1,'Rua Teste1, 23', 'Teste1');
+insert into cliente (id,endereco, nome ) values(2,'Rua Teste2, 25', 'Teste2');
+insert into cliente (id,endereco, nome ) values(3,'Rua Teste3, 27', 'Teste3');
+insert into item(id,nome, preco) values(1, 'Produto1', 30.00);
+insert into item(id,nome, preco) values(2, 'Produto1', 40.00);
+insert into item(id,nome, preco) values(3, 'Produto1', 50.00);
+insert into item(id,nome, preco) values(4, 'Produto1', 50.00);
+insert into item(id,nome, preco) values(5, 'Produto1', 50.00);
+insert into item(id,nome, preco) values(6, 'Produto1', 70.00);
+insert into item(id,nome, preco) values(7, 'Produto1', 80.00);
+insert into item(id,nome, preco) values(8, 'Produto1', 90.00);
+insert into item(id,nome, preco) values(9, 'Produto1', 80.00);
+insert into item(id,nome, preco) values(10, 'Produto1', 220.00);
